@@ -16,7 +16,7 @@ cmake --build build --config MinSizeRel
 * Windows 10 + MinGW
 
     ```bash
-    gcc -flto -Os -DNDEBUG -DUNICODE -D_UNICODE -finput-charset=UTF-8 -fextended-identifiers -fexec-charset=GBK railgun.c -o railgun -lvfw32
+    gcc -std=c99 -Os -DNDEBUG -DUNICODE -D_UNICODE -finput-charset=UTF-8 -fexec-charset=GBK railgun.c -o railgun -lvfw32 -flto
     ```
 
 C语言代码，无基础慎用，不提供技术支持。
