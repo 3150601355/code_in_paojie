@@ -1,4 +1,4 @@
-﻿																						#include <windows.h>
+																						#include <windows.h>
 																				      #include      <stdlib.h>
                                                                                    #include             <vfw.h> 
                                                                                  #define                    G
