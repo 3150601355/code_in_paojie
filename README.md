@@ -19,6 +19,4 @@ cmake --build build --config MinSizeRel
     gcc -std=c99 -Os -DNDEBUG -DUNICODE -D_UNICODE -finput-charset=UTF-8 -fexec-charset=GBK railgun.c -o railgun -lvfw32 -flto
     ```
 
-C语言代码，无基础慎用，不提供技术支持。
-
 效果：https://www.bilibili.com/video/BV1N54y1o7m9
