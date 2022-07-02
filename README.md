@@ -8,7 +8,8 @@ C语言代码，结合Win32编程技术，【无基础慎用，不提供技术�
 
 效果：https://www.bilibili.com/video/BV1N54y1o7m9/
 
-#补：
+**补：**
+
 出现4996号错误，可以这样处理：VS2017-项目-属性-C/C++-命令行，在【其它】选项中加入 /D_CRT_SECURE_NO_WARNINGS
 
 ## release
